@@ -3,6 +3,7 @@ Dieses Modul definiert eine Klasse Door und eine Dummy-Klasse DoorLock
 zur Simulation eines Tür- und Schlossmechanismus.
 """
 
+
 class Door:
     """
     Klasse, die eine Tür mit einem Schlossmechanismus simuliert.
@@ -10,6 +11,7 @@ class Door:
     :param ref2door_lock: Referenz zu einem Türschloss-Objekt
     :param base_color: Die Farbe der Tür
     """
+
     def __init__(self, ref2door_lock, base_color):
         """
         Erzeugt ein Tür-Objekt.
@@ -65,6 +67,7 @@ class Door:
 
 class DoorLock:
     """Dummy-Klasse für ein Türschloss."""
+
     def __init__(self):
         print("Ein Schloss wurde erzeugt")
 
