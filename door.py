@@ -4,6 +4,12 @@ zur Simulation eines Tür- und Schlossmechanismus.
 """
 
 class Door:
+    """
+    Klasse, die eine Tür mit einem Schlossmechanismus simuliert.
+
+    :param ref2door_lock: Referenz zu einem Türschloss-Objekt
+    :param base_color: Die Farbe der Tür
+    """
     def __init__(self, ref2door_lock, base_color):
         """
         Erzeugt ein Tür-Objekt.
