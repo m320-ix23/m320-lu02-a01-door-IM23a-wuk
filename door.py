@@ -6,7 +6,7 @@ zur Simulation eines Tür- und Schlossmechanismus.
 
 class Door:
     """
-    Klasse, die eine Tür mit einem Schlossmechanismus simuliert
+    Klass, die eine Tür mit einem Schlossmechanismus simuliert
 
     :param ref2door_lock: Referenz zu einem Türschloss-Objekt
     :param base_color: Die Farbe der Tür
